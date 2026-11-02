@@ -11,6 +11,13 @@ class Batbox < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/Digital-Disconnections-LTD/homebrew-batbox/releases/download/batbox-0.1.1"
+    rebuild 1
+    sha256               arm64_tahoe:  "c52e4cd50b17f3173a5f70d17293104f3d8b0a3835ab2d3590b48de8838c07e9"
+    sha256 cellar: :any, x86_64_linux: "3af94de4a97358da41aa0823df486d5bf261e48f8ee661af73d1ace1bae1d6ec"
+  end
+
   depends_on "cmake" => :build
   depends_on "libwebsockets" => :build
   depends_on "ninja" => :build
