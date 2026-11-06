@@ -12,9 +12,9 @@ class Batbox < Formula
   end
 
   bottle do
-    root_url "https://github.com/Digital-Disconnections-LTD/homebrew-batbox/releases/download/batbox-0.1.2"
-    sha256               arm64_tahoe:  "34eee7a1b4094597447957a8ec04f232bcbf9e5f4980d99a0a034f3ecad2c077"
-    sha256 cellar: :any, x86_64_linux: "b62f063d5f40b93fbad634b1d913fba62354220d5088383ada3736b3b8655a10"
+    root_url "https://github.com/Digital-Disconnections-LTD/homebrew-batbox/releases/download/batbox-0.1.3"
+    sha256               arm64_tahoe:  "a7b152803e124b9c86e71ac68fa49babe5fd7957c629bdc3b3b0f678e3d9d721"
+    sha256 cellar: :any, x86_64_linux: "a21e8fcd8567b4d4724e77ca0ecad287b71f6a873d18eef67ec984bf9eac6ae2"
   end
 
   depends_on "cmake" => :build
